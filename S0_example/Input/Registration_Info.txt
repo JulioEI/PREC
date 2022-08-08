@@ -1,0 +1,16 @@
+Input 'Registration' folder with original and alligned z-stack images (ImagaJ bUnwarpJ plugin pre-processing) not included due to file-size reasons (16bits mosaics).
+
+In order to run S0_registration.m a 'Registration' folder containing the following info is needed:
+	- 'Basal' folder; data regarding basal condition
+		-IX_XX_BG_pos; TIF file containing binary BG mask after alignment
+		-IX_XX_ch01_pos; TIF file containing red channel aligned z-stack image
+		-IX_XX_CORE_pos; TIF file containing binary core NAc mask after alignment
+		-IX_XX_NAc_pos; TIF file containing binary NAc mask after alignment
+		-IX_XX_SHELL_pos; TIF file containing binary shell NAc mask after alignment
+
+	- 'TBS' folder: data regarding optostimulated condition
+		-IX_XX_BG_pos; TIF file containing binary BG mask after alignment
+		-IX_XX_ch01_pos; TIF file containing red channel aligned z-stack image
+		-IX_XX_CORE_pos; TIF file containing binary core NAc mask after alignment
+		-IX_XX_NAc_pos; TIF file containing binary NAc mask after alignment
+		-IX_XX_SHELL_pos; TIF file containing binary shell NAc mask after alignment
