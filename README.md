@@ -1,4 +1,4 @@
-# PREC
+# PRQ
 
 **Step 0:** S0_registration.m : create Info_IX.mat grid structures from input z-stack images.
 
